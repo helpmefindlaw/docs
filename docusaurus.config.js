@@ -30,10 +30,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/helpmefindlaw/docs/tree/main',
+          docLayoutComponent: "@theme/DocPage",
+          docItemComponent: "@theme/ApiItem"
         },
         blog: {
           showReadingTime: true,
@@ -57,9 +58,9 @@ const config = {
         id: "apiDocs",
         docsPluginId: "classic",
         config: {
-          helpmefindlaw: { // Note: petstore key is treated as the <id> and can be used to specify an API doc instance when using CLI commands
-            specPath: "api/openapi.json", // Path to designated spec file
-            outputDir: "docs/api", // Output directory for generated .mdx docs
+          helpmefindlaw: {
+            specPath: "openapi/openapi.json", // Path to designated spec file
+            outputDir: "docs/reference", // Output directory for generated .mdx docs
             // sidebarOptions: {
             //   groupPathsBy: "tag",
             // },
