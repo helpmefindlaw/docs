@@ -13,7 +13,6 @@ const config = {
   baseUrl: '/',
   organizationName: 'helpmefindlaw', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-  deploymentBranch: 'main',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
