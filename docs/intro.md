@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-HelpMeFindLaw is a legal research AI that can search, evaluate and report on millions of laws in minutes. It uses [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) and Retreival Augmented Generation to select the most relevent passages of law relevant to your query and synthesizes a response by aggregating, summarising and reasoning over the discovered law. Using this approach, we can use AI to discover and summarise sources of law related to your problem. A key step in this process is source taceability. We make this possible with our proprieity database of laws and our emphasis on citations.
+HelpMeFindLaw is a legal research AI that can search, evaluate and report on millions of laws in minutes. It uses [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) and Retreival Augmented Generation to select the most relevent passages of law relevant to your query and synthesizes a response by aggregating, summarising and reasoning over the discovered law. Using this approach, we can use AI to discover and summarise sources of law related to your problem. A key step towards developing trust in automated legal research and AI is the existance of clear source traceability. We make this possible with our proprieity database of laws and our emphasis on citations.
 
 ## Chat Interface
 
