@@ -12,7 +12,8 @@ const config = {
   url: 'https://docs.helpmefindlaw.com',
   baseUrl: '/',
   organizationName: 'helpmefindlaw', // Usually your GitHub org/user name.
-  projectName: 'helpmefindlaw', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
+  deploymentBranch: 'main',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
