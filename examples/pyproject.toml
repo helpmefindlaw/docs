@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "examples"
+version = "0.1.0"
+description = "Some examples of use cases with the HelpMeFindLaw Developer API."
+authors = ["Jordan Parker <jordan.parker@helpmefindlaw.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.285"
+httpx = "^0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -20,7 +20,7 @@ The Developer API gives you the ability to build powerfull applications and AI a
 
 ## Limitations
 
-We have placed constraints on our model outputs to limit the AI's ability to discuss outside of its included knowledge and our laws database. This is a step we take to reduce the known [Hallucination] (https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) problem with Large Language Models. Despite this, the helpmefindlaw can still produce factuallary incorrect results so it is vital that you check the included sources provided with each response and _do your own research_.
+We have placed constraints on our model outputs to limit the AI's ability to discuss outside of its included knowledge and our laws database. This is a step we take to reduce the known [hallucinations](<https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)>) problem with Large Language Models. Despite this, the helpmefindlaw can still produce factuallary incorrect results so it is vital that you check the included sources provided with each response and _do your own research_.
 
 Our laws database is an ongoing project. We seek to include as many laws as practical from the US, Australia, England and Canada. You can check the status of the included sources [here](https://helpmefindlaw.com/sources). Currently, sources not included in our database will not be available to the AI; so, our AIs knowledge is limited to our included sources. Our AI safegaurds should notify you of this when you search outside of the included jurisidictions.
 
