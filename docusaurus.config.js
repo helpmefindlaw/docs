@@ -88,7 +88,12 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/sources', label: 'Sources', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'sources',
+            label: 'Sources', 
+            position: 'left'
+        },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/helpmefindlaw/docs',
@@ -145,7 +150,7 @@ const config = {
 
       },
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: "dark",
       },
     }),
 };

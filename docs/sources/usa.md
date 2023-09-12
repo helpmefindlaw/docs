@@ -1,5 +1,6 @@
 ---
-displayed_sidebar: sourcesSidebar
+displayed_sidebar: sources
+sidebar_position: 1
 ---
 
 # United States

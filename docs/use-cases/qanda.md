@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Question and Answer
 
-Using the /retreival endpoint, you can build your own legal Question and Answer with sources chain by consuming the helpmefindlaw API as a retreiver with langchain or llama index. This is usefull if you want to get access to the raw retreival functionality of our RAG pipeline, which includes the joint functionality of a vector search and knowledge graph over our custom laws dataset.
+Using the `/retreival` endpoint, you can build your own legal Question and Answer with sources chain by consuming the helpmefindlaw API as a retreiver with langchain or llama index. This is usefull if you want to get access to the raw retreival functionality of our RAG pipeline, which includes the joint functionality of a vector search and knowledge graph over our custom laws dataset.
 
 ## Langchain Example
 

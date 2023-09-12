@@ -1,7 +1,7 @@
 from langchain.tools.base import BaseTool
 from pydantic import BaseModel
 from typing import Optional, Type
-from .utils import HelpMeFindLawCompletionInput, HelpMeFindLawClient
+from .api import HelpMeFindLawCompletionInput, HelpMeFindLawClient
 
 
 class HelpMeFindlLawCompletionTool(BaseTool):

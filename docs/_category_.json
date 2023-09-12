@@ -1,0 +1,7 @@
+{
+  "label": "Documentation",
+  "link": {
+    "type": "generated-index",
+    "description": "The Developer API refenece documentation"
+  }
+}
