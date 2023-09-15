@@ -35,53 +35,7 @@ async function getCompletion(token: string) {
 
 The Developer API allows users to build tools for Langchain with helpmefindlaw. Adding helpmefindlaw as a tool to your agent allows an agent to conduct legal research as part of a planning action to an AI system. This opens up interesting automation possibilities for compliance tech and legal tech when used along with multi-step planning agents like [BabyAGI](https://github.com/yoheinakajima/babyagi) and [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT).
 
-```py title="tool.py"
-import httpx
-from langchain.tools.base import BaseTool
-from pydantic import BaseModel
-
-class HelpMeFindLawCompletionInput(BaseModel):
-    prompt: str
-
-
-class HelpMeFindlLawTool(BaseTool):
-    name = "helpmefindlaw"
-    description = "useful for when you research the law and are happy with summarised outputs"
-    args_schema: Type[BaseModel] = HelpMeFindLawCompletionInput
-    token: str
-
-    def _run(
-        self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None
-    ) -> str:
-        """Use the tool."""
-        body = query
-        resp = httpx.get("https://api.hepmefindlaw.com/completion",
-            body=body,
-            headers={
-                "Authorization": f"Bearer {self.token}"
-            }
-        )
-        if not resp.ok:
-            return resp.error
-        return res.json()
-
-    async def _arun(
-        self, query: str, run_manager: Optional[AsyncCallbackManagerForToolRun] = None
-    ) -> str:
-        """Use the tool asynchronously."""
-        body = query
-        async with httpx.AsyncClinet() as client:
-            resp = client.get("https://api.hepmefindlaw.com/completion",
-                body=body,
-                headers={
-                    "Authorization": f"Bearer {self.token}"
-                }
-            )
-            if not resp.ok:
-                return resp.error
-            return res.json()
-
-```
+Please see some langchaing examples in oure [Use Cases](https://docs.helpmefindlaw.com/docs/use-cases)
 
 ## Next Steps?
 
