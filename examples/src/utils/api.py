@@ -13,28 +13,29 @@ class HelpMeFindLawClient(BaseModel):
 
     def _run(self, endpoint: str, body) -> str:
         """Use the tool."""
-        resp = httpx.post(f"{self.base_url}/{endpoint}",
-            data=body,
-            headers={
-                "Authorization": f"Bearer {self.token}"
-            }
-        )
-        if not resp.ok:
-            return resp.error
-        return resp.json()
+        with httpx.Client(timeout=None) as client:
+            resp = client.post(f"{self.base_url}/{endpoint}",
+                data=body,
+                headers={
+                    "Authorization": f"Bearer {self.token}"
+                }
+            )
+            if not resp.status_code == 200:
+                raise Exception(resp.text)
+            return resp.json()
     
     async def _arun(self, endpoint: str, query: str) -> str:
         """Use the tool asynchronously."""
         body = query
-        async with httpx.AsyncClinet() as client:
+        async with httpx.AsyncClinet(timeout=None) as client:
             resp = client.post(f"{self.base_url}/{endpoint}",
                 body=body,
                 headers={
                     "Authorization": f"Bearer {self.token}"
                 }
             )
-            if not resp.ok:
-                return resp.error
+            if not resp.status_code == 200:
+                raise Exception(resp.text)
             return resp.json()
         
     def completion(self, body: HelpMeFindLawCompletionInput) -> str:
