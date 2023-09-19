@@ -80,6 +80,7 @@ const config = {
         logo: {
           alt: 'helpmefindlaw',
           src: 'img/hmfl-logo.png',
+          href: "https://helpmefindlaw.com"
         },
         items: [
           {
