@@ -81,3 +81,9 @@ The agent defined the following steps:
 For items 1, the agent was able to use the `HelpMeFindLawCompletionTool` to research the applicable laws through searching the legal database of HelpMeFindLaw. It was then able to build on this research with 2-6 draft and review a clause in answer to the provided prompt.
 
 We could improve this workflow by adding an LLM fine-tunned on contract drafting as for Step 3.
+
+Please find below an example video of this workflow with an [demo app](https://github.com/helpmefindlaw/docs/blob/main/examples/src/contract-drafting.py)
+
+<div >
+  <iframe allow="autoplay;" allowfullscreen src="https://clipchamp.com/watch/hbP9XfLnukN/embed" width="640" height="360"></iframe>
+</div>
