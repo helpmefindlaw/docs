@@ -114,7 +114,7 @@ const config = {
               },
               {
                 label: 'Sources',
-                to: '/sources',
+                to: '/docs/sources',
               },
             ],
           },
