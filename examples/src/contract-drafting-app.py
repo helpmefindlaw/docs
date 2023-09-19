@@ -1,15 +1,114 @@
+
+
+# --------- utils/api.py ---------
+
+import httpx
+from pydantic import BaseModel
+
+class HelpMeFindLawCompletionInput(BaseModel):
+    prompt: str
+
+class HelpMeFindLawRetrievalInput(BaseModel):
+    prompt: str
+
+class HelpMeFindLawClient(BaseModel):
+    token: str
+    base_url: str = "https://api.helpmefindlaw.com"
+
+    def _run(self, endpoint: str, body) -> str:
+        """Use the tool."""
+        with httpx.Client(timeout=None) as client:
+            resp = client.post(f"{self.base_url}/{endpoint}",
+                data=body,
+                headers={
+                    "Authorization": f"Bearer {self.token}"
+                }
+            )
+            if not resp.status_code == 200:
+                raise Exception(resp.text)
+            return resp.json()
+    
+    async def _arun(self, endpoint: str, query: str) -> str:
+        """Use the tool asynchronously."""
+        body = query
+        async with httpx.AsyncClinet(timeout=None) as client:
+            resp = client.post(f"{self.base_url}/{endpoint}",
+                body=body,
+                headers={
+                    "Authorization": f"Bearer {self.token}"
+                }
+            )
+            if not resp.status_code == 200:
+                raise Exception(resp.text)
+            return resp.json()
+        
+    def completion(self, body: HelpMeFindLawCompletionInput) -> str:
+        return self._run("completion", body.model_dump_json())
+    
+    async def acompletion(self, body: HelpMeFindLawCompletionInput) -> str:
+        return await self._arun("completion", body.model_dump_json())
+    
+    def retrieve(self, body: HelpMeFindLawRetrievalInput) -> str:
+        return self._run("retrieve", body.model_dump_json())
+    
+    async def aretrieve(self, body: HelpMeFindLawRetrievalInput) -> str:
+        return await self._arun("retrieve", body.model_dump_json())
+    
+# --------- utils/tools.py ---------
+
+from langchain.tools.base import BaseTool
+from langchain.callbacks.manager import CallbackManagerForToolRun, AsyncCallbackManagerForToolRun
+from pydantic import BaseModel
+from typing import Optional, Type
+
+class HelpMeFindlLawCompletionTool(BaseTool):
+    name = "helpmefindlaw"
+    description = "useful tool for researching the law and are happy with summarised outputs"
+    args_schema: Type[BaseModel] = HelpMeFindLawCompletionInput
+    client: HelpMeFindLawClient
+
+    def _run(
+        self, prompt: str, run_manager: Optional[CallbackManagerForToolRun] = None
+    ) -> str:
+        """Use the tool."""
+        return self.client.completion(HelpMeFindLawCompletionInput(prompt=prompt))
+
+    async def _arun(
+        self, prompt: str, run_manager: Optional[AsyncCallbackManagerForToolRun] = None
+    ) -> str:
+        """Use the tool asynchronously."""
+        return await self.client.acompletion(HelpMeFindLawCompletionInput(prompt=prompt))
+    
+    
+class HelpMeFindlLawRetreivalTool(BaseTool):
+    name = "helpmefindlaw"
+    description = "useful tool for researching the law and doing your own analysis over raw text"
+    args_schema: Type[BaseModel] = HelpMeFindLawCompletionInput
+    client: HelpMeFindLawClient
+
+    def _run(
+        self, prompt: str, run_manager: Optional[CallbackManagerForToolRun] = None
+    ) -> str:
+        """Use the tool."""
+        return self.client.retrieve(HelpMeFindLawRetrievalInput(prompt=prompt))
+
+    async def _arun(
+        self, prompt: str, run_manager: Optional[AsyncCallbackManagerForToolRun] = None
+    ) -> str:
+        """Use the tool asynchronously."""
+        return await self.client.aretrieve(HelpMeFindLawRetrievalInput(prompt=prompt))
+
+# --------- app ---------
+
 from langchain_experimental.plan_and_execute import PlanAndExecute, load_agent_executor, load_chat_planner
 from langchain.chat_models import ChatOpenAI
 from langchain.tools import DuckDuckGoSearchRun
-from utils.api import HelpMeFindLawClient
-from utils.tools import HelpMeFindlLawCompletionTool
 from langchain.callbacks import StreamlitCallbackHandler
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
 from langchain.tools import DuckDuckGoSearchRun
 import streamlit as st
-
 
 def handle_output(output):
     if isinstance(output, str):
