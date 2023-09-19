@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## Notes
+
+Could look at use https://mintlify.com/docs/quickstart
+
 ### Installation
 
 ```

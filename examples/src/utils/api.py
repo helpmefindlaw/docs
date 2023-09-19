@@ -9,7 +9,7 @@ class HelpMeFindLawRetrievalInput(BaseModel):
 
 class HelpMeFindLawClient(BaseModel):
     token: str
-    base_url: str = "https://api.hepmefindlaw.com"
+    base_url: str = "https://api.helpmefindlaw.com"
 
     def _run(self, endpoint: str, body) -> str:
         """Use the tool."""

@@ -21,7 +21,7 @@ def handle_output(output):
 
 st.set_page_config(page_title="HelpMeFindLaw\n\n BabyAGI For Contract Drafting", page_icon="🦜")
 st.title("HelpMeFindLaw x Langchain 🦜")
-st.subheader("BabyAGI For Contract Drafting")
+st.subheader("AutoGPT For Contract Drafting")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 hmfl_api_key = st.sidebar.text_input("HelpMeFindLAw API Key", type="password")
@@ -43,7 +43,6 @@ for idx, msg in enumerate(msgs.messages):
             if step[0].tool == "_Exception":
                 continue
             with st.status(f"**{step[0].tool}**: {step[0].tool_input}", state="complete"):
-                print(step)
                 st.write(step)
                 # st.write(step[0].log)
                 # if step[1].get("completion"):
@@ -63,7 +62,6 @@ if prompt := st.chat_input(placeholder="Draft a non-compete clause for an employ
         st.stop()
 
     client = HelpMeFindLawClient(token=hmfl_api_key)
-    client.base_url = "http://localhost:8081"
     model = ChatOpenAI(model_name="gpt-4", openai_api_key=openai_api_key, streaming=True)
     tools = [
         DuckDuckGoSearchRun(name="Search"),
