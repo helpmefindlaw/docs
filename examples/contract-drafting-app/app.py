@@ -1,4 +1,8 @@
-
+# Contract Drafting App
+# ---------------------
+# This app uses the HelpMeFindLaw API to build an AutoGPT style agent the 
+# completes legal research prior to attempting to draft any clauses for
+# a end user.
 
 # --------- utils/api.py ---------
 
