@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Contract Drafting
 
-When drafting a contract clause, it's crucial to achieve clarcity and conciseness to express the parties' intent effectively without conflicting with applicable laws. Some clauses may need to align with statutory compliance requirements or industry best practices.
+When drafting a contract clause, it's crucial to achieve clarity and conciseness to express the parties' intent effectively without conflicting with applicable laws. Some clauses may need to align with statutory compliance requirements or industry best practices.
 
 Lawyers leverage their expertise in legal frameworks, statutory requirements, contract principles, and industry standards to determine necessary clauses for an agreement. To replicate this workflow with AI, the AI should possess knowledge of best practices, gained through fine-tuning on contract data, and the ability to interpret and incorporate relevant laws, similar to a professional Lawyer.
 
