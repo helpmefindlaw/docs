@@ -7,6 +7,6 @@ sidebar_position: 3
 
 We are working on including the following sources:
 
-1. US Case Law and Regulations
-2. Australian Case Law
+1. US Case Law
+2. Australian Legislation, Regulation and Case Law
 3. UK Legislation, Regulation and Case Law
