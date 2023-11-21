@@ -10,7 +10,7 @@ sidebar_position: 1
 #### Statues
 
 All federal legislation is available at [congress.gov](https://www.congress.gov/).
-We have collected inforce permenant legislation (as per the 2022 federal code).
+We have collected enforce permenant legislation (as per the 2022 federal code).
 
 #### Regulations
 
@@ -20,7 +20,7 @@ Federal regulation has been collected from the [Code of Federal Regulations](htt
 
 #### Statutes
 
-We have collected inforce permenant legislation (as per the 2021 state codes) from the following states:
+We have collected enforce permenant legislation (as per the 2021 state codes) from the following states:
 
 1. [California](https://leginfo.legislature.ca.gov/)
 2. [New York](https://www.nysenate.gov/legislation)
