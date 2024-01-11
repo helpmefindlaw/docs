@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklawme_docs=self.webpackChunklawme_docs||[]).push([[546],{27518:s=>{s.exports=JSON.parse('{"title":"Sources","slug":"sources","permalink":"/docs/sources","navigation":{"next":{"title":"United States","permalink":"/docs/sources/usa"}}}')}}]);

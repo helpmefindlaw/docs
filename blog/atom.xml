@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://docs.helpmefindlaw.com/blog</id>
+    <id>https://docs.lawme.ai/blog</id>
     <title>helpemefindlaw Blog</title>
     <updated>2023-09-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://docs.helpmefindlaw.com/blog"/>
+    <link rel="alternate" href="https://docs.lawme.ai/blog"/>
     <subtitle>helpemefindlaw Blog</subtitle>
-    <icon>https://docs.helpmefindlaw.com/img/hmfl-logo.png</icon>
+    <icon>https://docs.lawme.ai/img/hmfl-logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://docs.helpmefindlaw.com/blog/welcome"/>
+        <link href="https://docs.lawme.ai/blog/welcome"/>
         <updated>2023-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to HelpMeFindLaw!]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to HelpMeFindLaw!</p><p>Please reach out if you would like to discuss anything related to HelpMeFindLaw at <a href="mailto:jordan.parker@helpmefindlaw.com" target="_blank" rel="noopener noreferrer">jordan.parker@helpmefindlaw.com</a></p>]]></content>
+        <summary type="html"><![CDATA[Welcome to lawme.ai!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to lawme.ai!</p><p>Please reach out if you would like to discuss anything related to lawme.ai at <a href="mailto:jordan.parker@lawme.ai" target="_blank" rel="noopener noreferrer">jordan.parker@lawme.ai</a></p>]]></content>
         <author>
             <name>Jordan Parker</name>
             <uri>https://github.com/jordanparker6</uri>
