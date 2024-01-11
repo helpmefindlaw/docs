@@ -1,6 +1,6 @@
 # Contract Drafting App
 # ---------------------
-# This app uses the HelpMeFindLaw API to build an AutoGPT style agent the 
+# This app uses the lawme.ai API to build an AutoGPT style agent the 
 # completes legal research prior to attempting to draft any clauses for
 # a end user.
 
@@ -14,8 +14,8 @@ from langchain.memory import ConversationBufferMemory
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
 from langchain.tools import DuckDuckGoSearchRun
 import streamlit as st
-from src.utils.api import HelpMeFindLawClient
-from src.utils.tools import HelpMeFindlLawCompletionTool
+from src.utils.api import LawMeClient
+from src.utils.tools import LawMeCompletionTool
 
 def handle_output(output):
     if isinstance(output, str):
@@ -25,12 +25,12 @@ def handle_output(output):
             return output["completion"]
     return output
 
-st.set_page_config(page_title="HelpMeFindLaw\n\n BabyAGI For Contract Drafting", page_icon="🦜")
-st.title("HelpMeFindLaw x Langchain 🦜")
+st.set_page_config(page_title="LawMe\n\n BabyAGI For Contract Drafting", page_icon="🦜")
+st.title("lawme.ai x Langchain 🦜")
 st.subheader("AutoGPT For Contract Drafting")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
-hmfl_api_key = st.sidebar.text_input("HelpMeFindLAw API Key", type="password")
+hmfl_api_key = st.sidebar.text_input("lawme.ai API Key", type="password")
 
 msgs = StreamlitChatMessageHistory()
 memory = ConversationBufferMemory(
@@ -64,14 +64,14 @@ if prompt := st.chat_input(placeholder="Draft a non-compete clause for an employ
         st.info("Please add your OpenAI API key to continue.")
         st.stop()
     if not hmfl_api_key:
-        st.info("Please add your HelpMeFindLaw API key to continue.")
+        st.info("Please add your lawme.ai API key to continue.")
         st.stop()
 
-    client = HelpMeFindLawClient(token=hmfl_api_key)
+    client = LawMeClient(token=hmfl_api_key)
     model = ChatOpenAI(model_name="gpt-4", openai_api_key=openai_api_key, streaming=True)
     tools = [
         DuckDuckGoSearchRun(name="Search"),
-        HelpMeFindlLawCompletionTool(client=client)
+        LawMeCompletionTool(client=client)
     ]
     planner = load_chat_planner(llm=model)
     executor = load_agent_executor(llm=model, tools=tools)

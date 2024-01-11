@@ -5,16 +5,16 @@ from rich.prompt import Prompt
 from langchain_experimental.plan_and_execute import PlanAndExecute, load_agent_executor, load_chat_planner
 from langchain.chat_models import ChatOpenAI
 from langchain.tools import DuckDuckGoSearchRun
-from utils.api import HelpMeFindLawClient
-from utils.tools import HelpMeFindlLawCompletionTool
+from utils.api import LawMeClient
+from utils.tools import LawMeCompletionTool
 from dotenv import load_dotenv
 
 load_dotenv()
 token = os.getenv("HMFL_API_KEY")
 
-client = HelpMeFindLawClient(token=token)
+client = LawMeClient(token=token)
 tools = [
-    HelpMeFindlLawCompletionTool(client=client),
+    LawMeCompletionTool(client=client),
     DuckDuckGoSearchRun()
 ]
 

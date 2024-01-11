@@ -1,15 +1,15 @@
 import httpx
 from pydantic import BaseModel
 
-class HelpMeFindLawCompletionInput(BaseModel):
+class CompletionInput(BaseModel):
     prompt: str
 
-class HelpMeFindLawRetrievalInput(BaseModel):
+class RetrievalInput(BaseModel):
     prompt: str
 
-class HelpMeFindLawClient(BaseModel):
+class LawMeClient(BaseModel):
     token: str
-    base_url: str = "https://api.helpmefindlaw.com"
+    base_url: str = "https://api.lawme.ai"
 
     def _run(self, endpoint: str, body) -> str:
         """Use the tool."""
@@ -38,14 +38,14 @@ class HelpMeFindLawClient(BaseModel):
                 raise Exception(resp.text)
             return resp.json()
         
-    def completion(self, body: HelpMeFindLawCompletionInput) -> str:
+    def completion(self, body: CompletionInput) -> str:
         return self._run("completion", body.model_dump_json())
     
-    async def acompletion(self, body: HelpMeFindLawCompletionInput) -> str:
+    async def acompletion(self, body: CompletionInput) -> str:
         return await self._arun("completion", body.model_dump_json())
     
-    def retrieve(self, body: HelpMeFindLawRetrievalInput) -> str:
+    def retrieve(self, body: RetrievalInput) -> str:
         return self._run("retrieve", body.model_dump_json())
     
-    async def aretrieve(self, body: HelpMeFindLawRetrievalInput) -> str:
+    async def aretrieve(self, body: RetrievalInput) -> str:
         return await self._arun("retrieve", body.model_dump_json())

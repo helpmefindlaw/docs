@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "examples"
 version = "0.1.0"
-description = "Some examples of use cases with the HelpMeFindLaw Developer API."
-authors = ["Jordan Parker <jordan.parker@helpmefindlaw.com>"]
+description = "Some examples of use cases with the lawme.ai Developer API."
+authors = ["Jordan Parker <jordan.parker@lawme.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

@@ -9,9 +9,9 @@ const config = {
   title: 'helpemefindlaw',
   tagline: 'Your AI legal research assistant',
   favicon: 'img/hmfl-logo.png',
-  url: 'https://docs.helpmefindlaw.com',
+  url: 'https://docs.lawme.ai',
   baseUrl: '/',
-  organizationName: 'helpmefindlaw', // Usually your GitHub org/user name.
+  organizationName: 'lawme.ai', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -58,7 +58,7 @@ const config = {
         id: "apiDocs",
         docsPluginId: "classic",
         config: {
-          helpmefindlaw: {
+          lawme: {
             specPath: "openapi/openapi.json", // Path to designated spec file
             outputDir: "docs/reference", // Output directory for generated .mdx docs
             // sidebarOptions: {
@@ -76,11 +76,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'helpmefindlaw',
+        title: 'lawme.ai',
         logo: {
-          alt: 'helpmefindlaw',
+          alt: 'lawme.ai',
           src: 'img/hmfl-logo.png',
-          href: "https://helpmefindlaw.com"
+          href: "https://lawme.ai"
         },
         items: [
           {

@@ -5,6 +5,6 @@ authors: [jordan]
 tags: [hello, docusaurus]
 ---
 
-Welcome to HelpMeFindLaw!
+Welcome to lawme.ai!
 
-Please reach out if you would like to discuss anything related to HelpMeFindLaw at jordan.parker@helpmefindlaw.com
+Please reach out if you would like to discuss anything related to lawme.ai at jordan.parker@lawme.ai
