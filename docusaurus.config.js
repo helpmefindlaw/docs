@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'helpemefindlaw',
   tagline: 'Your AI legal research assistant',
-  favicon: 'img/hmfl-logo.png',
+  favicon: 'img/logo.svg',
   url: 'https://docs.lawme.ai',
   baseUrl: '/',
   organizationName: 'lawme.ai', // Usually your GitHub org/user name.
@@ -29,12 +29,19 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '/',
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+          exclude: ['**/_*.{js,jsx,ts,tsx,md,mdx}', '**/_*/**', '**/*.test.{js,jsx,ts,tsx}', '**/__tests__/**'],
+        },
         docs: {
+          routeBasePath: '/docs/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/helpmefindlaw/docs/tree/main',
           docLayoutComponent: "@theme/DocPage",
-          docItemComponent: "@theme/ApiItem"
+          docItemComponent: "@theme/ApiItem",
         },
         blog: {
           showReadingTime: true,
@@ -79,22 +86,40 @@ const config = {
         title: 'lawme.ai',
         logo: {
           alt: 'lawme.ai',
-          src: 'img/hmfl-logo.png',
+          src: 'img/logo.svg',
           href: "https://lawme.ai"
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'documentationSidebar',
+            type: 'doc',
+            docId: 'introduction',
             position: 'left',
-            label: 'Documentation',
+            label: 'User Guide',
+          },
+          {
+            type: 'doc',
+            docId: 'tutorial',
+            position: 'left',
+            label: 'Tutorial',
+          },
+          {
+            type: 'doc',
+            docId: 'node-reference',
+            position: 'left',
+            label: 'Node Reference',
+          },
+          {
+            type: 'doc',
+            docId: 'api-reference',
+            position: 'left',
+            label: 'API Reference',
           },
           {
             type: 'docSidebar',
             sidebarId: 'sources',
             label: 'Sources', 
             position: 'left'
-        },
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/helpmefindlaw/docs',
@@ -111,7 +136,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs/',
               },
               {
                 label: 'Sources',
