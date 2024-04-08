@@ -1,6 +1,6 @@
-# Rivet Node Reference
+# Node Reference
 
-The node reference contains information about every node built-in to Rivet.
+The node reference contains information about every node built-in to lawme.
 
 For an overview of all nodes, see the [All Nodes Page](./node-reference/all-nodes.mdx).
 

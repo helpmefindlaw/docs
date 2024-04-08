@@ -1,6 +1,6 @@
-# Rivet API Reference
+# Developer API Reference
 
-This section of the Rivet documentation goes over the TypeScript APIs for `@ironclad/rivet-core` and `@ironclad/rivet-node`.
+This section of the documentation goes over the Developer APIs for programatic access to lawme.
 
 To get started with integrating Rivet into your existing TypeScript or JavaScript application, see the [Integration - Getting Started](./api-reference/getting-started-integration.mdx) page.
 

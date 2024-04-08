@@ -43,11 +43,11 @@ const config = {
           docLayoutComponent: "@theme/DocPage",
           docItemComponent: "@theme/ApiItem",
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/helpmefindlaw/docs/tree/main',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl:
+        //     'https://github.com/helpmefindlaw/docs/tree/main',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -120,7 +120,7 @@ const config = {
             label: 'Sources', 
             position: 'left'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/helpmefindlaw/docs',
             label: 'GitHub',
