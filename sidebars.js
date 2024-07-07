@@ -22,7 +22,8 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        'user-guide/features/discuss',
+        'user-guide/features/workforce',
+        'user-guide/features/applications',
         'user-guide/features/workflows',
         'user-guide/features/workflow-builder',
       ],
@@ -32,7 +33,7 @@ const sidebars = {
       label: 'Getting Started',
       collapsible: true,
       collapsed: false,
-      items: ['getting-started/setup', 'getting-started/first-ai-agent'],
+      items: ['user-guide/getting-started/setup', 'user-guide/getting-started/first-ai-agent'],
     },
     {
       type: 'category',

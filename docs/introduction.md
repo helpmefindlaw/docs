@@ -2,7 +2,7 @@
 slug: /
 ---
 
-# Introduction to Lawme.ai
+# Introduction
 
 Welcome to the Lawme User Guide!
 

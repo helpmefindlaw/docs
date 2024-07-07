@@ -1,5 +1,5 @@
 ---
-title: 'Working with Nodes'
+title: "Working with Nodes"
 ---
 
 ## Adding Nodes
@@ -26,7 +26,7 @@ Right click on a node and select **Delete** to delete it. **Warning: There is no
 
 Nodes are connected by clicking and dragging from a port on one node to a port on another node. Ports are the connection points on the node. Ports can be inputs or outputs. Inputs are on the left side of the node and outputs are on the right side of the node.
 
-![connecting a node](../getting-started/assets/chat-to-text-node.gif)
+![connecting a node](./getting-started/assets/chat-to-text-node.gif)
 
 The output port of a node can connect to multiple input ports on other nodes.
 
