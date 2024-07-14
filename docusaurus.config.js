@@ -106,19 +106,7 @@ const config = {
             type: 'doc',
             docId: 'node-reference',
             position: 'left',
-            label: 'Node Reference',
-          },
-          {
-            type: 'doc',
-            docId: 'api-reference',
-            position: 'left',
-            label: 'API Reference',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sources',
-            label: 'Sources', 
-            position: 'left'
+            label: 'Block Reference',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
