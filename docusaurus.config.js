@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'helpemefindlaw',
-  tagline: 'Your AI legal research assistant',
+  title: 'lawme.ai',
+  tagline: 'Virtual workforce and process automation platform',
   favicon: 'img/logo.svg',
   url: 'https://docs.lawme.ai',
   baseUrl: '/',
