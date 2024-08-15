@@ -30,7 +30,7 @@ When connected to a remote debugger, whenever the flow executes remotely, it wil
 
 A flow has a set of inputs that can be thought of as the "arguments" to the flow. When calling the flow as a subflow, or when calling the flow from your integrated code, you can pass in these inputs, which will be available to the blocks in the flow.
 
-To add an input to the flow, add a new [Input Block](../../block-reference/flow-input). The ID of the Flow Input block will be the name of the input on the flow. You may give default values for inputs in the block editor for the input.
+To add an input to the flow, add a new [Input Block](../../block-reference/input). The ID of the Flow Input block will be the name of the input on the flow. You may give default values for inputs in the block editor for the input.
 
 The output port of the Flow Input will contain the value of the input (from the parent flow or code) when the flow is called.
 

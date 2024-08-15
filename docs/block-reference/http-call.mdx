@@ -15,12 +15,6 @@ The HTTP Call Block allows you to make an HTTP call to a specified URL with a gi
 
 The HTTP Call Block uses the Fetch API to make HTTP requests. It supports all HTTP methods (GET, POST, PUT, DELETE, etc.) and allows you to specify custom headers and a request body.
 
-:::caution
-When using the default [browser executor](../user-guide/executors.md), you have to worry about [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) when making HTTP requests to external APIs. If the API you are trying to call does not support CORS to `http://tauri.local` (most do not), you will run into CORS problems. This can manifest as an error `fetch failed` in the output panel.
-
-This can be worked around by using the [Block executor](../user-guide/executors.md) in Lawme, which does not do CORS checks.
-:::
-
 <Tabs
   defaultValue="inputs"
   values={[

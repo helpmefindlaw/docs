@@ -17,7 +17,7 @@ When a block is split:
 
 ## Use Cases
 
-Batching is most useful for parallelizing execution. For example, you could use a [Read Directory Block](../../block-reference/read-directory) to read a directory of files. This gives an array of strings. You can then pipe this into a [Read File Block](../../block-reference/read-file) which has Split turned on, to read each file in parallel. The output of the Read File block will be an array of strings.
+Batching is most useful for parallelizing execution. 
 
 ## Chaining
 
@@ -29,7 +29,7 @@ For the above example, the Read File could then be piped into a split [Text Bloc
 
 At some point you will likely wish to join split blocks back into non-split blocks. There are a few ways to accomplish this.
 
-- When an array of strings is passed into a [Text Block](../block-reference/text) or a [Prompt Block](../../block-reference/prompt), the block will join the array of strings into a single string, separated by newlines. This is the most common method of joining.
+- When an array of strings is passed into a [Text Block](../../block-reference/text) or a [Prompt Block](../../block-reference/prompt), the block will join the array of strings into a single string, separated by newlines. This is the most common method of joining.
 - The [Chat Block](../../block-reference/chat) can accept an array of strings or chat messages to its Prompt input.
 - The [Extract Object Path](../../block-reference/extract-object-path) block can be used to extract a single value from an array of objects.
 - The [Pop Block](../../block-reference/pop) block can be used to extract a single value from an array of any type.

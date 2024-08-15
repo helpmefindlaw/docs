@@ -2,7 +2,7 @@
 title: 'Working with Workflows'
 ---
 
-A Lawme project contains a set of flows. These flows can call each other by using a [Subflow Block](../block-reference/subflow). Any flow can call any other flow in the project (including itself).
+A Lawme project contains a set of flows. These flows can call each other by using a [Subflow Block](../../block-reference/subflow). Any flow can call any other flow in the project (including itself).
 
 ## Creating a Workflow
 

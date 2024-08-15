@@ -6,7 +6,7 @@ When you first open Lawme you are presented with a blank canvas. This is where y
 
 Right click (or press space!) to open the **Add** menu, go into **Common**, and select a [Chat Block](../../block-reference/chat). This will create a new Chat block where you right clicked. You can also type "chat" into the search bar to find the Chat block.
 
-Do the same thing again, but now create a [Text Block](../block-reference/text) (in Common or Text) to the left of the Chat block.
+Do the same thing again, but now create a [Text Block](../../block-reference/text) (in Common or Text) to the left of the Chat block.
 
 Drag from the **Output** port of the Text block to the **Prompt** port of the Chat block. This will connect the two blocks together.
 
@@ -26,4 +26,4 @@ If you click the Expand icon in the top right of the response area, you can expa
 
 Congratulations! You've just created your first AI chain in Lawme! There is a lot more work to enable a full AI Agent, but this is a good start.
 
-Next, you can go through the [tutorial](../tutorial) to learn more about what blocks are available and how to assemble them into a full AI Agent, or you can continue with the [user guide](../user-guide/overview-of-interface) to learn more about Lawme's features in depth.
+Next, you can go through the [tutorial](../../tutorial) to learn more about what blocks are available and how to assemble them into a full AI Agent, or you can continue with the [user guide](../workflow/overview-of-interface) to learn more about Lawme's features in depth.

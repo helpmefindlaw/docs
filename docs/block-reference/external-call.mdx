@@ -38,7 +38,7 @@ External functions are useful for many use-cases, they can do things like:
 - Get user information about who is running the flow
 - Anything else you can think of!
 
-External functions are extremely powerful. They can only be used when running Lawme from a host application, and are not available when running Lawme in the Lawme applicaton. The external function blocks will error when running in the Lawme application. Use [Remote Debugging](../user-guide/remote-debugging.md) to run External Call blocks in the Lawme application.
+External functions are extremely powerful. They can only be used when running Lawme from a host application, and are not available when running Lawme in the Lawme applicaton. The external function blocks will error when running in the Lawme application. Use [Remote Debugging](../user-guide/workflow/remote-debugging.md) to run External Call blocks in the Lawme application.
 
 <Tabs
   defaultValue="inputs"
@@ -116,7 +116,7 @@ Then, in your flow, create an External Call Block, and set the `Function Name` t
 
 ![External Call Block Example 1](./assets/external-call-block-example-01.png)
 
-Run your application, and connect the [Remote Debugger](../user-guide/remote-debugging.md) to it. Then, run the flow. You should see the object returned from the database call in the External Call block.
+Run your application, and connect the [Remote Debugger](../user-guide/workflow/remote-debugging.md) to it. Then, run the flow. You should see the object returned from the database call in the External Call block.
 
 ## Error Handling
 
@@ -126,7 +126,7 @@ If the external function errors, then the External Call block will error. If you
 
 **Q: Can I use external functions when running Lawme in the Lawme application?**
 
-No, external functions are only available when running Lawme from a host application. Connect the [Remote Debugger](../user-guide/remote-debugging.md) to your host application to run external functions in the Lawme application.
+No, external functions are only available when running Lawme from a host application. Connect the [Remote Debugger](../user-guide/workflow/remote-debugging.md) to your host application to run external functions in the Lawme application.
 
 ```ts
 {
@@ -145,6 +145,6 @@ External functions are synchronous, and can return data. Raising events are asyn
 
 ## See Also
 
-- [Remote Debugging](../user-guide/remote-debugging.md)
+- [Remote Debugging](../user-guide/workflow/remote-debugging.md)
 - [Context Block](./context.mdx)
 - [Raise Event Block](./raise-event.mdx)

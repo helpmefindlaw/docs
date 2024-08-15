@@ -2,7 +2,7 @@
 title: 'Remote Debugging'
 ---
 
-Remote debugging allows you to integrate the Lawme Core or Lawme Block libraries in another application, run your flows in that other application, but see the live flow execution in the Lawme application! This is useful for debugging flows that are running in a production environment, or for debugging flows that are running in a different environment than the Lawme application. This is very useful when using the [External Call Block](../block-reference/external-call), as the default executor cannot call into your own application's code.
+Remote debugging allows you to integrate the Lawme Core or Lawme Block libraries in another application, run your flows in that other application, but see the live flow execution in the Lawme application! This is useful for debugging flows that are running in a production environment, or for debugging flows that are running in a different environment than the Lawme application. This is very useful when using the [External Call Block](../../block-reference/external-call), as the default executor cannot call into your own application's code.
 
 ## Connecting the Remote Debugger
 
@@ -21,7 +21,3 @@ If the debugger server has configured `dynamicFlowRun`, then when clicking the *
 Whenever a flow is started on the server, its execution will immediately be visible in Lawme if it is connected as a remote debugger.
 
 By default, you can both pause and abort the current execution in Lawme, and the execution will be paused or aborted on the remote server. This can be useful if you want to pause the execution to inspect the current state of the flow, or if you want to abort the execution because you detect some incorrect behavior.
-
-## Supporting Remote Debugging
-
-See the [remote debugging](../../api-reference/remote-debugging) section of the API Reference for more information on how to support remote debugging in your application.
