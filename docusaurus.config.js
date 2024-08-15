@@ -41,7 +41,7 @@ const config = {
           editUrl:
             'https://github.com/helpmefindlaw/docs/tree/main',
           docLayoutComponent: "@theme/DocPage",
-          docItemComponent: "@theme/ApiItem",
+          // docItemComponent: "@theme/ApiItem",
         },
         // blog: {
         //   showReadingTime: true,
@@ -59,25 +59,24 @@ const config = {
     ],
   ],
   plugins: [
-    [
-      'docusaurus-plugin-openapi-docs',
-      {
-        id: "apiDocs",
-        docsPluginId: "classic",
-        config: {
-          lawme: {
-            specPath: "openapi/openapi.json", // Path to designated spec file
-            outputDir: "docs/reference", // Output directory for generated .mdx docs
-            // sidebarOptions: {
-            //   groupPathsBy: "tag",
-            // },
-          }
-        }
-      },
-    ]
+    // [
+      // 'docusaurus-plugin-openapi-docs',
+      // {
+      //   id: "apiDocs",
+      //   docsPluginId: "classic",
+      //   config: {
+      //     lawme: {
+      //       specPath: "openapi/openapi.json", // Path to designated spec file
+      //       outputDir: "docs/reference", // Output directory for generated .mdx docs
+      //       // sidebarOptions: {
+      //       //   groupPathsBy: "tag",
+      //       // },
+      //     }
+      //   }
+      // },
+    // ]
   ],
-
-  themes: ["docusaurus-theme-openapi-docs"],
+  // themes: ["docusaurus-theme-openapi-docs"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

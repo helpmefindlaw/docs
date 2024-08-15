@@ -1,5 +1,5 @@
 ---
-title: First AI Agent
+title: Your First AI Employee
 ---
 
 When you first open Lawme you are presented with a blank canvas. This is where you can create your first AI agent.
