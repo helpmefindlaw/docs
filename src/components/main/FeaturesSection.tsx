@@ -6,7 +6,6 @@ import layout from '../../css/layout.module.css';
 export const FeaturesSection: React.FC<{ id?: string }> = ({ id }) => {
   return (
     <Section id={id}>
-      <h2>Why Rivet?</h2>
       <div className={layout.card3}>
         <div>
           <h3>Visualize and Build</h3>
@@ -19,7 +18,7 @@ export const FeaturesSection: React.FC<{ id?: string }> = ({ id }) => {
         <div>
           <h3>Collaborate</h3>
           <p>
-            Rivet graphs are just YAML files, so you can version them in your team's repository, and review them using
+            Flows are just YAML files, so you can version them in your team's repository, and review them using
             your favorite code review tools.
           </p>
         </div>

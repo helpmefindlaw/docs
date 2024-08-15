@@ -2,26 +2,26 @@
 title: 'Live Debugging'
 ---
 
-## Currently Executing Nodes
+## Currently Executing Blocks
 
-During the execution of a graph, the nodes that are currently executing will be highlighted in orange. For nodes that implement it, you can zoom in and examine the partial output (such as streaming data from an LLM) by hovering over the node.
+During the execution of a flow, the blocks that are currently executing will be highlighted in orange. For blocks that implement it, you can zoom in and examine the partial output (such as streaming data from an LLM) by hovering over the block.
 
-## Currently Executing Graphs
+## Currently Executing Flows
 
-When a graph is executing, such as when using subgraphs, a spinner will be shown beside the graph in the Graphs list. You can click on the graph to view it and its current data, such as the currently executing node.
+When a flow is executing, such as when using subflows, a spinner will be shown beside the flow in the Flows list. You can click on the flow to view it and its current data, such as the currently executing block.
 
-## Node Output Data
+## Block Output Data
 
-For each node, after its execution, the output of the node will be shown below the node. You can see exactly what data was output from the node.
+For each block, after its execution, the output of the block will be shown below the block. You can see exactly what data was output from the block.
 
 ### Execution Picker
 
-When a node is ran multiple times, such as during loop execution, or if a subgraph has been called multiple times, a numeric picker will appear above the output of the node. 1 indicates the first time the node was executed, 2 indicates the second time, and so on.
+When a block is ran multiple times, such as during loop execution, or if a subflow has been called multiple times, a numeric picker will appear above the output of the block. 1 indicates the first time the block was executed, 2 indicates the second time, and so on.
 
-It is not yet possible to pick between executions of a whole graph, to see only the values that were output from a specific execution of a graph. All executions of a graph are merged together.
+It is not yet possible to pick between executions of a whole flow, to see only the values that were output from a specific execution of a flow. All executions of a flow are merged together.
 
 ## Pausing and Aborting
 
-You may pause the current execution of the graph by clicking **Pause** in the top right. Any currently executing node will finish, but no new nodes will start executing. This is useful for examining the current state of the graph, without entirely aborting it.
+You may pause the current execution of the flow by clicking **Pause** in the top right. Any currently executing block will finish, but no new blocks will start executing. This is useful for examining the current state of the flow, without entirely aborting it.
 
 To abort the current execution, click **Abort** in the top right.

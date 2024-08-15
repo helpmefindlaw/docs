@@ -18,13 +18,13 @@
 
 ### [Latest Release on GitHub](https://github.com/Ironclad/rivet/releases/latest)
 
-Download the latest release for your platform from the above link. Rivet is currently available for MacOS, Linux, and Windows.
+Download the latest release for your platform from the above link. Lawme is currently available for MacOS, Linux, and Windows.
 
 ## Building from Source
 
 ### Prerequisites
 
-To build and run Rivet from source, you will need:
+To build and run Lawme from source, you will need:
 
 - Rust (use [rustup](https://rustup.rs/))
 - node 20+ (or install [Volta](https://volta.sh/))

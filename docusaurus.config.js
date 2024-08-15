@@ -83,7 +83,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'lawme.ai',
+        title: '',
         logo: {
           alt: 'lawme.ai',
           src: 'img/logo.svg',
@@ -104,7 +104,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'node-reference',
+            docId: 'block-reference',
             position: 'left',
             label: 'Block Reference',
           },
@@ -164,7 +164,8 @@ const config = {
 
       },
       colorMode: {
-        defaultMode: "dark",
+        defaultMode: "light",
+        respectPrefersColorScheme: true
       },
     }),
 };

@@ -1,10 +1,10 @@
 # Data Types
 
-Internally, the data the passes through Rivet is marked as a number of data types. When integrating Rivet with your own application, you will need to know what these data types are and how to handle them.
+Internally, the data the passes through Lawme is marked as a number of data types. When integrating Lawme with your own application, you will need to know what these data types are and how to handle them.
 
 ## DataValue
 
-A DataValue is a value that can be passed through Rivet. It is a union of all the possible data types that can be passed through Rivet. It is represented as an object with a `type` property and a `value` property. The `type` key is in the table below, except when additional type decorators are present on the type.
+A DataValue is a value that can be passed through Lawme. It is a union of all the possible data types that can be passed through Lawme. It is represented as an object with a `type` property and a `value` property. The `type` key is in the table below, except when additional type decorators are present on the type.
 
 ## Decorators
 
@@ -29,7 +29,6 @@ A type may have the following decorators applied to it, which change the type. D
 | `chat-message`           | A representation of a chat message to sent to an LLM, with attached metadata such as who is sending it. | `{ type: string; message: string; name?: string; function_call?: string }` |                                                                                                                                                                                                                                                                      |
 | `object`                 | An object value.                                                                                        | `Record<string, unknown>`                                                  | Roughly equivalent to the JavaScript `object` type. Often used interchangably with `any`, and may be an array sometimes.                                                                                                                                             |
 | `control-flow-excluded`  | A value that is excluded from control flow.                                                             | `undefined`               
-| `gpt-function`           | A definition of a function that GPT can evaluate.                                                       | (See Rivet source)                                                         | Only used by the Chat node when "Enable function use" is turned on.                                                                                                                                                                                                  |
 | `vector`                 | A vector of numbers.                                                                                    | `number[]`                                                                 | Used when generating and using embeddings.                                                                                                                                                                                                                           |
 | `image`                  | An image value.                                                                                         | `{ mediaType: string; data: UInt8Array; }`                                 |
 | `audio`                  | An audio value.                                                                                         | `{ mediaType: string; eata: UInt8Array; }`                                 |

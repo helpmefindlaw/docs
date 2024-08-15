@@ -4,11 +4,11 @@ sidebar_label: 03 - Matching & Conditionals
 
 # Matching & Conditionals
 
-In the sidebar you should see the graphs tab with a list of numbered folders with graphs. These are the graphs that are included in the tutorial project.
+In the sidebar you should see the flows tab with a list of numbered folders with flows. These are the flows that are included in the tutorial project.
 
-Inside the `3. Matching and Conditionals` folder you should see an `Matching and Conditionals` graph. Click on the graph to open it.
+Inside the `3. Matching and Conditionals` folder you should see an `Matching and Conditionals` flow. Click on the flow to open it.
 
-You should see the following graph:
+You should see the following flow:
 
 ![Overview](./assets/03-overview.png)
 

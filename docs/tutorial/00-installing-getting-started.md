@@ -4,7 +4,7 @@ sidebar_label: 00 - Installing & Overview
 
 # Installing & Overview
 
-This Tutorial will walk you through the basic building blocks of Rivet.
+This Tutorial will walk you through the basic building blocks of Lawme.
 
 ## Prerequisites
 
@@ -13,6 +13,6 @@ This Tutorial will walk you through the basic building blocks of Rivet.
 ## Open the Tutorial
 
 - Download the [documentation-tutorial.rivet-project](https://github.com/Ironclad/rivet/blob/main/packages/app/src/assets/tutorials/documentation-tutorial.rivet-project)
-- Open Rivet
+- Open Lawme
 - Click File > Open Project
 - Open the documentation-tutorial.rivet-project file you just downloaded

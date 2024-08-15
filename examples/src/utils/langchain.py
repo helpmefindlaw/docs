@@ -19,7 +19,7 @@ class LawMeRetriever(BaseRetriever):
         """Get documents relevant for a query."""
         docs = self.client.retrieve(RetrievalInput(prompt=query))
 
-        # parse source nodes
+        # parse source blocks
         docs = []
         for doc in docs:
             metadata = doc.metadata or {}

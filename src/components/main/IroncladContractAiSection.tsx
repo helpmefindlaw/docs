@@ -26,7 +26,7 @@ export const IroncladContractAiSection: React.FC<{ id?: string }> = ({ id }) => 
         <img alt="Ironclad" className={styles.inlineLogo} src="img/ironclad-logo-white.png" height="24px" /> Contract AI
       </h2>
       <p>
-        Ironclad Contract AI (CAI) is a virtual contract assistant, powered by AI agents, and developed with Rivet. CAI
+        Ironclad Contract AI (CAI) is a virtual contract assistant, powered by AI agents, and developed with Lawme. CAI
         is capable of answering diverse questions about every stage of the contract lifecycle, directly using Ironclad's
         existing capabilities, like contract search, workflow process, and data visualization.
       </p>

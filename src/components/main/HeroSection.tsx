@@ -30,7 +30,7 @@ export const HeroSection: React.FC<{ id?: string }> = ({ id }) => {
         </a>
       </div>
       <div className={styles.imgContainer}>
-        <img className={styles.img} height="300px" src="img/graph.png" alt="Rivet Graph" />
+        <img className={styles.img} height="300px" src="img/flow.png" alt="Lawme Flow" />
       </div>
       <div className={styles.scrollIcon}>&#8744;</div>
     </Section>
