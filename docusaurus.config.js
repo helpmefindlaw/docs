@@ -123,12 +123,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentation',
+                label: 'User Guide',
                 to: '/docs/',
               },
               {
-                label: 'Sources',
-                to: '/docs/sources',
+                label: 'Tutorials',
+                to: '/docs/tutorial',
+              },
+              {
+                label: 'Block Reference',
+                to: '/docs/block-reference',
               },
             ],
           },
