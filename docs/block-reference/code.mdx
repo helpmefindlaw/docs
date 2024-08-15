@@ -165,10 +165,6 @@ function codeBlock(inputs) {
 }
 ```
 
-**Q: Can I use `require` or `import` in the code block?**
-
-A: No. The code block is executed in a sandboxed environment, and does not have access to the `require` or `import` functions. If you need to `require` or `import`, [use an External Call Block](./external-call.mdx) instead, or [create a Lawme plugin](../user-guide/plugins/creating-plugins.md).
-
 **Q: Can I use `async`/`await` in the code block?**
 
 A: No. The code block is executed synchronously, and does not support `async`/`await`. As you cannot use external libraries in a Code block, there is no need for `async`/`await` support anyway. Use an [External Call Block](./external-call.mdx) instead.

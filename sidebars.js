@@ -16,37 +16,24 @@ const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   userGuide: [
     'introduction',
+    // {
+    //   type: 'category',
+    //   label: 'Getting Started',
+    //   collapsible: true,
+    //   collapsed: false,
+    //   items: [
+    //       'user-guide/getting-started/first-employee',
+    //      'user-guide/getting-started/first-workflow'
+    //   ],
+    // },
     {
       type: 'category',
-      label: 'Features',
+      label: 'Virtual Employees',
       collapsible: true,
       collapsed: false,
       items: [
-        'user-guide/features/workforce',
-        'user-guide/features/workflows',
-        'user-guide/features/workflow-builder',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Getting Started',
-      collapsible: true,
-      collapsed: false,
-      items: ['user-guide/getting-started/setup', 'user-guide/getting-started/first-workflow'],
-    },
-    {
-      type: 'category',
-      label: 'Creating Employees',
-      collapsible: true,
-      collapsed: false,
-      items: [
-        'user-guide/overview-of-interface',
-        'user-guide/adding-connecting-blocks',
-        'user-guide/working-with-flows',
-        'user-guide/working-with-workflows',
-        'user-guide/executing-ai-chains',
-        'user-guide/batching',
-        'user-guide/subflows',
+        'user-guide/employees/create',
+        'user-guide/employees/applications',
       ],
     },
     {
@@ -55,13 +42,27 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        'user-guide/overview-of-interface',
-        'user-guide/adding-connecting-blocks',
-        'user-guide/working-with-flows',
-        'user-guide/working-with-workflows',
-        'user-guide/executing-ai-chains',
-        'user-guide/batching',
-        'user-guide/subflows',
+        'user-guide/workflow/overview-of-interface',
+        'user-guide/workflow/adding-connecting-blocks',
+        'user-guide/workflow/working-with-flows',
+        'user-guide/workflow/working-with-workflows',
+        'user-guide/workflow/executing-ai-chains',
+        'user-guide/workflow/live-debugging',
+        'user-guide/workflow/data-types', 
+        'user-guide/workflow/batching',
+        'user-guide/workflow/subflows',
+        'user-guide/workflow/control-flow', 
+        'user-guide/workflow/loops'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Document Stores',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        'user-guide/document-store/introduction',
+        'user-guide/document-store/metadata',
       ],
     },
     {
@@ -70,16 +71,8 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        'user-guide/plugins', 
+        'user-guide/workflow/plugins', 
       ],
-    },
-    'user-guide/live-debugging',
-    {
-      type: 'category',
-      label: 'Advanced',
-      collapsible: true,
-      collapsed: false,
-      items: ['user-guide/data-types', 'user-guide/control-flow', 'user-guide/loops'],
     },
   ],
   tutorial: [
