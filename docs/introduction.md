@@ -6,24 +6,55 @@ slug: /
 
 Welcome to the Lawme User Guide!
 
-Lawme enables practices to scale their operations by augmenting their teams with a virtual workforce of AI employees trained on their processes and knowledge bases. 
+Lawme enables practices to scale their operations with a scalable workforce of AI employees who are trained on their processes and knowledge bases. 
 
-## Key Concepts
+## Features
 
-### Workforce
+### Scale your Workforce
 
-Your workforce is the collection of virtual employees created in the platform. Each employee is assigned a role on creation that defines their area of focus and allocated numerous workflows and document stores to empower the employee to action work and research over your internal data or public knowledge bases.
+Gain access to a scalable, 24/7 virtual legal assistant team, boosting your firm’s capacity to handle more cases simultaneously and improve response times.
 
-### Workflow
+- Virtual assistants work around the clock.
+- Easily handle more client inquiries and cases without hiring additional staff.
 
-A workflow represents a process an employee must follow to execute a piece of delegated work. Workflows are assigned to your virtual employees to teach them how to complete work and what internal processes / methodologies they must follow when completing work. Each workflow is designed in-app in with our Workflow Builder.
+### Boost your workflows
 
-### Document Stores
+Seamlessly integrate your custom-trained (or our pre-trained) workforce into your existing operations, ensuring smooth workflows while enhancing efficiency without disrupting your current processes.
 
-A document store is a collection of documents that form a knowledge base (e.g. contracts, guidelines & policies or invoices). Upon creation of a document store, you may define what structured data you would like to extract from each document to build the document register. For example, a document store of contracts might want to extract the parties, effective date, renewal period, etc. from the contracts so that this information forms a register for quick and easy use. 
+- Pre-built workflows for common tasks, reducing setup time.
+- Integration options to ensure compatibility with existing processes.
+- Example: Automate repetitive client onboarding tasks to save time.
 
-Besides structuring your documents and providing AI-native search, document stores can also be connected to workflows and employees to leverage the knowledge in these documents while building workflows or for general Q&A with your employee.
+### Enhance your Research
+
+Enhance both the quality and quantity of your firm's output, driving higher productivity and better client satisfaction through optimized resource allocation.
+
+A document store is a collection of documents that form a knowledge base (e.g., contracts, guidelines & policies, or invoices). Upon creation, you can define the structured data to extract from each document, such as parties, effective dates, and renewal periods. This information can be organized in a document register for quick and easy reference.
+
+- AI-powered document search for quick access to important data.
+- Connect document stores to workflows to enhance virtual employee responses.
+
+### Secure your Data
+
+Protect your firm’s and clients' sensitive information with advanced encryption and secure vaults, ensuring data integrity and compliance with the strictest security standards.
+
+- End-to-end encryption to keep client data secure.
+- Role-based access controls for added protection.
+
+### Unrivaled Models
+
+Harness our unmatched legal database, uniquely capable of referencing specific laws within your workflows—an advantage not offered by competitors. This integration ensures precise legal compliance and enhances your firm’s efficiency, setting you apart in the legal landscape.
+
+- Access an extensive database of local, national, and international laws.
+- Enable precise and informed responses from virtual assistants.
 
 ## Get Started
 
-Now that you have an overview of Lawme and its capabilities, it's time to dive into the documentation and explore its features in more detail. The following sections will guide you through the process of creating your first AI employee and building first AI-driven workflow.
+Now that you have an overview of LawMe and its capabilities, it's time to dive into the documentation and explore its features in more detail. The following sections will guide you through the process of creating your first AI employee and building your first AI-driven workflow.
+
+
+--> 
+Overview of LawMe.AI: Provide a concise summary of what the platform is and what users can expect to achieve.
+Account Setup: Step-by-step guide to create an account and set up their workspace.
+Quick Start Guide: A simple guide to get new users operational with their first virtual employee or workflow—this helps achieve early success.
+Product Tour: Include screenshots or short videos of key interfaces and how to navigate through them.
