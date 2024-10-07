@@ -1,5 +1,5 @@
 ---
-title: "Interaction Hub Builder"
+title: "Application Builder"
 ---
 
 Assign your virtual employees applications to enable them to communicate over chat, email, MS Teams and more.
