@@ -32,8 +32,9 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        'user-guide/workforce/create', // changed "employees" to "workforce"
-        'user-guide/workforce/applications', // changed "employees" to "workforce"
+        'user-guide/workforce/create', 
+        'user-guide/workforce/applications', 
+        'user-guide/workforce/introduction', 
       ],
     },
     {
@@ -83,7 +84,6 @@ const sidebars = {
     'tutorial/batching',
     'tutorial/loops',
   ],
-
   blockReference: [
     'block-reference',
     'block-reference/all-blocks',
