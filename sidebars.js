@@ -32,8 +32,8 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        'user-guide/employees/create',
-        'user-guide/employees/applications',
+        'user-guide/workforce/create', // changed "employees" to "workforce"
+        'user-guide/workforce/applications', // changed "employees" to "workforce"
       ],
     },
     {

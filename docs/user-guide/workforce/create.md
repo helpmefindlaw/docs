@@ -1,5 +1,5 @@
 ---
-title: "Create a New Employee Guide"
+title: "Create a New Worker Guide"
 ---
 
 Ready to expand your virtual legal team? Follow these steps to create a new virtual employee in LawMe and customize their role to meet your firm’s needs.
@@ -22,22 +22,24 @@ Ready to expand your virtual legal team? Follow these steps to create a new virt
 - Click on the newly created employee to view their details and manage their settings. On this page, you can see the Applications, Assets Used (like workflows, knowledge, and templates), and other settings for the employee.
 - Your new employee will appear in the Workforce Overview and is ready to be assigned tasks or workflows.
 
-## Step 4: Assign Interactions
+Your new employee will appear in the Workforce Overview and is ready to be assigned tasks or workflows.
 
-Assigning Interactions to your virtual employees allows them to communicate and collaborate across different channels, such as chat, email, or Microsoft Teams. The Interactions Hub acts as the central point for your broader team to interact with virtual employees, making it easier to assign tasks and get updates.
+## Step 4: Set up your contact methods via applications
 
-### Interactions
+Setting up your Applications (contact channels), such as chat, email, or Slack, allows you to effectively communicate and collaborate with your virtual employees. 
 
-Create a new Interaction for an employee:
+### Applications (contact channels)
 
-1. Go to the employee's profile page and click on **"Create New Interaction"**.
-2. **Configure the Interaction**: Specify the Interaction type (e.g., Chat Assistant, Email) and configure its settings.
+'Create New Application':
+
+1. Go to your new employee's profile page and click on **"Create New Application"**.
+2. **Configure the Application**: Specify the Interaction type (e.g., Chat Assistant, Email) and configure its settings.
 3. **Assign Workflows & Tools**: Determine which workflows and tools the Interaction will use to perform tasks.
 
-**Workflows**: Assign workflows by clicking on the Workflows tab in the Application Builder. You can choose from default workflows or custom workflows you've built in the Workflow Builder. Ensure that workflow titles and descriptions are descriptive for better AI task matching.
-**Tools**: Assign pre-built tools that handle specific tasks, such as the Read File tool or Legal Research tool. Tools enable the application to respond to short, simple requests, enhancing its functionality.
+- **Workflows**: Assign workflows by clicking on the Workflows tab in the Application Builder. You can choose from default workflows or custom workflows you've built in the Workflow Builder. Ensure that workflow titles and descriptions are descriptive for better AI task matching.
+- **Tools**: Assign pre-built tools that handle specific tasks, such as the Read File tool or Legal Research tool. Tools enable the application to respond to short, simple requests, enhancing its functionality.
 
-#### Current Interaction Types
+#### Current available Applications (contact channels)
 
 - **Chat Assistant**: The chat assistant provides a web-based chat interface for interacting with your virtual employee. You can customise the hub's appearance, default prompts, and the Terms of Use footer in the Interactions Hub Builder.
 
@@ -45,7 +47,7 @@ Create a new Interaction for an employee:
 
 - **Slack Bot**: Integrate your virtual employee as a Slack Bot to interact with your team directly through Slack channels. This enables seamless collaboration and task assignment right from your team's workspace.
 
-Your new employee will appear in the Workforce Overview and is ready to be assigned tasks or workflows.
+
 
 ## Tips for Creating Effective Employees
 - **Be Specific with Roles**: Clearly define the tasks this employee will handle to make assignment easier and enhance productivity.

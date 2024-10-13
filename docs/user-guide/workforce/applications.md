@@ -1,10 +1,10 @@
 ---
-title: "Interaction Hub Builder"
+title: "Applications"
 ---
 
-Assign your virtual employees applications to enable them to communicate over chat, email, MS Teams and more.
+Assign your virtual employees applications to enable them to communicate over chat, email, MS Teams, and more.
 
-Applications provide an interface for your broader team interact with your virtual employees. Chat with your virtual employees or assign them work and let them get busy in the background.
+Applications provide an interface for your broader team to interact with your virtual employees. Chat with your virtual employees or assign them tasks and let them work in the background.
 
 ## Application Builder
 
