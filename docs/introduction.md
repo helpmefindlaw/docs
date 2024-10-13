@@ -5,7 +5,6 @@ sidebar_label: 'Introduction'
 ---
 
 # Introduction
-# Introduction
 
 Welcome to the Lawme User Guide!
 
