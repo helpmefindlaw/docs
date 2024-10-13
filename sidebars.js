@@ -1,32 +1,24 @@
-/**
- * Creating a sidebar enables you to:
- - create an ordered group of docs
- - render a sidebar for each doc of that group
- - provide next/previous navigation
-
- The sidebars can be generated from the filesystem, or explicitly defined here.
-
- Create as many sidebars as you want.
- */
-
-// @ts-check
-
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // By default, Docusaurus generates a sidebar from the docs folder structure
   userGuide: [
-    'introduction',
-    'getting-started',
-    // {
-    //   type: 'category',
-    //   label: 'Getting Started',
-    //   collapsible: true,
-    //   collapsed: false,
-    //   items: [
-    //       'user-guide/getting-started/first-employee',
-    //      'user-guide/getting-started/first-workflow'
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Introduction',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        'introduction',  // Root Introduction Page
+        {
+          type: 'category',
+          label: 'Getting Started',
+          collapsible: true,
+          collapsed: false,
+          items: [
+            'user-guide/getting-started/first-employee',
+            'user-guide/getting-started/first-workflow',
+          ],
+        },
+      ],
+    },
     {
       type: 'category',
       label: 'Virtual Employees',
@@ -76,6 +68,15 @@ const sidebars = {
         'user-guide/workflow/plugins', 
       ],
     },
+    {
+      type: 'category',
+      label: 'Troubleshooting & FAQ',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        // Add your troubleshooting and FAQ docs here
+      ],
+    },
   ],
   tutorial: [
     'tutorial',
@@ -111,7 +112,6 @@ const sidebars = {
         'block-reference/chat',
       ],
     },
-
     {
       type: 'category',
       label: 'Lists',
@@ -132,7 +132,7 @@ const sidebars = {
       collapsed: true,
       items: [
         'block-reference/evaluate', 
-        'block-reference/RNG'
+        'block-reference/RNG',
       ],
     },
     {
