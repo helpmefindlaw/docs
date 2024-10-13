@@ -31,7 +31,7 @@ const sidebars = {
       type: 'category',
       label: 'Virtual Employees',
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         'user-guide/workforce/create', 
         'user-guide/workforce/applications', 
@@ -42,7 +42,7 @@ const sidebars = {
       type: 'category',
       label: 'Working with Workflows',
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       items: [
         'user-guide/workflow/overview-of-interface',
         'user-guide/workflow/adding-connecting-blocks',
