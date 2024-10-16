@@ -74,7 +74,7 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        // Add your troubleshooting and FAQ docs here
+        'faq'
       ],
     },
   ],
