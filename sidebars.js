@@ -7,28 +7,23 @@ const sidebars = {
       collapsed: false,
       items: [
         'introduction',  // Root Introduction Page
-        'getting-started',
-        // {
-        //   type: 'category',
-        //   label: 'Getting Started',
-        //   collapsible: true,
-        //   collapsed: false,
-        //   items: [
-        //     'user-guide/getting-started/first-employee',
-        //     'user-guide/getting-started/first-workflow',
-        //   ],
-        // },
+        {
+          type: 'doc',
+          id: 'user-guide/introduction/getting-started',
+          label: 'Getting Started',
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Virtual Employees',
+      label: 'Workforce',
       collapsible: true,
       collapsed: true,
       items: [
-        'user-guide/workforce/create', 
+        'user-guide/workforce/overview', 
+        'user-guide/workforce/onboarding', 
         'user-guide/workforce/applications', 
-        'user-guide/workforce/introduction', 
+        
       ],
     },
     {
@@ -75,7 +70,7 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        'faq'
+        'user-guide/troubleshoot-faq/faq'
       ],
     },
   ],
