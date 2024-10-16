@@ -7,16 +7,17 @@ const sidebars = {
       collapsed: false,
       items: [
         'introduction',  // Root Introduction Page
-        {
-          type: 'category',
-          label: 'Getting Started',
-          collapsible: true,
-          collapsed: false,
-          items: [
-            'user-guide/getting-started/first-employee',
-            'user-guide/getting-started/first-workflow',
-          ],
-        },
+        'getting-started',
+        // {
+        //   type: 'category',
+        //   label: 'Getting Started',
+        //   collapsible: true,
+        //   collapsed: false,
+        //   items: [
+        //     'user-guide/getting-started/first-employee',
+        //     'user-guide/getting-started/first-workflow',
+        //   ],
+        // },
       ],
     },
     {

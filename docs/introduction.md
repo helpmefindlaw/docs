@@ -53,10 +53,3 @@ Harness our unmatched legal database, uniquely capable of referencing specific l
 ## Get Started
 
 Now that you have an overview of LawMe and its capabilities, it's time to dive into the documentation and explore its features in more detail. The following sections will guide you through the process of creating your first AI employee and building your first AI-driven workflow.
-
-
---> 
-Overview of LawMe.AI: Provide a concise summary of what the platform is and what users can expect to achieve.
-Account Setup: Step-by-step guide to create an account and set up their workspace.
-Quick Start Guide: A simple guide to get new users operational with their first virtual employee or workflow—this helps achieve early success.
-Product Tour: Include screenshots or short videos of key interfaces and how to navigate through them.
