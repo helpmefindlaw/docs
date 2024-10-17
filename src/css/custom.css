@@ -48,20 +48,21 @@
   border-top: 1px solid hsl(0, 0%, 89.8%);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* For readability concerns, we use a lighter palette in dark mode. */
 [data-theme='dark'] {
-  background-color: hsl(0, 0%, 3.9%);
-  --ifm-navbar-background-color: hsl(0, 0%, 3.9%);
-  --ifm-footer-background-color: hsl(0, 0%, 3.9%);
-  --ifm-color-primary: #8749ee;;	
-  --ifm-color-primary-dark: #6415ea;	;
-  --ifm-color-primary-darker: #380c82	;
-  --ifm-color-primary-darkest: #21074e;
-  --ifm-color-primary-light: #a97df3;;
-  --ifm-color-primary-lighter: #a97df3;
-  --ifm-color-primary-lightest: #cbb1f8;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-toc-border-color: hsl(0, 0%, 14.9%);
+  background-color: hsl(0, 0%, 10%);
+  --ifm-navbar-background-color: hsl(0, 0%, 10%);
+  --ifm-footer-background-color: hsl(0, 0%, 10%);
+  --ifm-color-primary: #a267f1;
+  --ifm-color-primary-dark: #7a3aec;
+  --ifm-color-primary-darker: #6c2bea;
+  --ifm-color-primary-darkest: #5415d1;
+  --ifm-color-primary-light: #9458f0;
+  --ifm-color-primary-lighter: #a267f1;
+  --ifm-color-primary-lightest: #bc90f5;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  --ifm-toc-border-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 90%);
 }
 
 [data-theme='dark'] .navbar {

@@ -59,6 +59,15 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Templates',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        'product-overview/templates/overview',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Integrations',
       collapsible: true,
       collapsed: true,
