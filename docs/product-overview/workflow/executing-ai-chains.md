@@ -1,5 +1,5 @@
 ---
-title: 'Executing AI Chains'
+title: 'AI Chains'
 ---
 
 ## Data Flow

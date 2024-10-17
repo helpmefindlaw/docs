@@ -4,9 +4,9 @@ sidebar_position: 1
 sidebar_label: 'Introduction'
 ---
 
-# Boost Legal Efficiency with Strategic Automation and Superior Outcomes
+# Welcome to Lawme
 
-### Free Up Your Lawyers for Strategic Work
+### Boost Legal Efficiency and Free Up Your Lawyers for Strategic Work
 
 Use a virtual legal team to manage routine tasks, allowing your lawyers to focus on delivering superior insights and client outcomes.
 

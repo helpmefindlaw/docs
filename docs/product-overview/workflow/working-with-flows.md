@@ -1,5 +1,5 @@
 ---
-title: 'Working with Flows'
+title: 'Flows'
 ---
 
 A Lawme project contains a set of named flows. Each of these flows contains a set of blocks connected together, forming the flow.

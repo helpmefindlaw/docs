@@ -1,5 +1,5 @@
 ---
-title: "Working with Blocks"
+title: "Blocks"
 ---
 
 ## Adding Blocks

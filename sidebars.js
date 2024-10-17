@@ -9,7 +9,7 @@ const sidebars = {
         'introduction',  // Root Introduction Page
         {
           type: 'doc',
-          id: 'user-guide/introduction/getting-started',
+          id: 'product-overview/introduction/getting-started',
           label: 'Getting Started',
         },
       ],
@@ -20,29 +20,29 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        'user-guide/workforce/overview', 
-        'user-guide/workforce/onboarding', 
-        'user-guide/workforce/applications', 
+        'product-overview/workforce/overview', 
+        'product-overview/workforce/onboarding', 
+        'product-overview/workforce/applications', 
         
       ],
     },
     {
       type: 'category',
-      label: 'Working with Workflows',
+      label: 'Workflows',
       collapsible: true,
       collapsed: true,
       items: [
-        'user-guide/workflow/overview-of-interface',
-        'user-guide/workflow/adding-connecting-blocks',
-        'user-guide/workflow/working-with-flows',
-        'user-guide/workflow/working-with-workflows',
-        'user-guide/workflow/executing-ai-chains',
-        'user-guide/workflow/live-debugging',
-        'user-guide/workflow/data-types', 
-        'user-guide/workflow/batching',
-        'user-guide/workflow/subflows',
-        'user-guide/workflow/control-flow', 
-        'user-guide/workflow/loops'
+        'product-overview/workflow/overview',
+        'product-overview/workflow/overview-of-interface',
+        'product-overview/workflow/blocks',
+        'product-overview/workflow/working-with-flows',
+        'product-overview/workflow/executing-ai-chains',
+        'product-overview/workflow/live-debugging',
+        'product-overview/workflow/data-types', 
+        'product-overview/workflow/batching',
+        'product-overview/workflow/subflows',
+        'product-overview/workflow/control-flow', 
+        'product-overview/workflow/loops'
       ],
     },
     {
@@ -51,8 +51,10 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        'user-guide/document-store/introduction',
-        'user-guide/document-store/metadata',
+        'product-overview/document-store/document-stores-overview',
+        'product-overview/document-store/how-it-works',
+        'product-overview/document-store/user-benefits',
+        'product-overview/document-store/metadata',
       ],
     },
     {
@@ -61,7 +63,7 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        'user-guide/workflow/plugins', 
+        'product-overview/workflow/plugins', 
       ],
     },
     {
@@ -70,7 +72,7 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
-        'user-guide/troubleshoot-faq/faq'
+        'product-overview/troubleshoot-faq/faq'
       ],
     },
   ],

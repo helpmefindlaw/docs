@@ -1,5 +1,5 @@
 ---
-title: 'Overview of the Interface'
+title: 'The Interface'
 ---
 
 ## Sidebar
