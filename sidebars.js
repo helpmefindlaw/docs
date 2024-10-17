@@ -94,14 +94,14 @@ const sidebars = {
       ],
     },
   ],
-  tutorial: [
-    'tutorial',
-    'tutorial/simple-flow',
-    'tutorial/matching-conditionals',
-    'tutorial/subflows',
-    'tutorial/batching',
-    'tutorial/loops',
-  ],
+  // tutorial: [
+  //   'tutorial',
+  //   'tutorial/simple-flow',
+  //   'tutorial/matching-conditionals',
+  //   'tutorial/subflows',
+  //   'tutorial/batching',
+  //   'tutorial/loops',
+  // ],
   blockReference: [
     'block-reference',
     'block-reference/all-blocks',

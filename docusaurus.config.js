@@ -95,12 +95,12 @@ const config = {
             position: 'left',
             label: 'Product Overview',
           },
-          {
-            type: 'doc',
-            docId: 'tutorial',
-            position: 'left',
-            label: 'Tutorials',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'tutorial',
+          //   position: 'left',
+          //   label: 'Tutorials',
+          // },
           {
             type: 'doc',
             docId: 'block-reference',
@@ -125,10 +125,10 @@ const config = {
                 label: 'Product Overview',
                 to: '/docs/',
               },
-              {
-                label: 'Tutorials',
-                to: '/docs/tutorial',
-              },
+              // {
+              //   label: 'Tutorials',
+              //   to: '/docs/tutorial',
+              // },
               {
                 label: 'Block Reference',
                 to: '/docs/block-reference',
