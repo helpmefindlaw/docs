@@ -1,10 +1,10 @@
 # User Benefits
 
-With LawMe’s Document Store, your firm gains the ability to:
+With Lawme’s Document Store, your firm gains the ability to:
 
 - **Increase Efficiency**: Eliminate the need to manually search through documents. The Document Store automates the retrieval of important legal data for faster task completion.
-- **Customise for Your Needs**: Whether you need general legal data or firm-specific documents, LawMe offers customisable options to meet your unique workflow requirements.
-- **Ensure Accuracy**: Leverage LawMe’s proprietary legal datasets to ensure precise, legally sound information in your workflows.
+- **Customise for Your Needs**: Whether you need general legal data or firm-specific documents, Lawme offers customisable options to meet your unique workflow requirements.
+- **Ensure Accuracy**: Leverage Lawme’s proprietary legal datasets to ensure precise, legally sound information in your workflows.
 - **Enhance Collaboration**: Teams can easily share and access the necessary documents and data through organised vaults, streamlining cross-team collaboration and case management.
 
 ### Setting Up Your Document Store

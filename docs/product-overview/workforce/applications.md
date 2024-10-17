@@ -5,8 +5,8 @@ title: "Applications"
 ---
 
 ### Current Applications
-Each virtual assistant can be connected to different communication methods. For example, Chloe, our default Legal Research Assistant, can be linked to:
-- **Chat Assistant**: Web-based chat for interacting with your assistant. Customise the hub, prompts, and footer.
+Each virtual assistant can be connected to different communication methods. 
+- **Chat Assistant**: Web-based chat for interacting with your assistant.
 - **Email**: Assign an email account (e.g., @mail.lawme.ai) to communicate with your assistant via email.
 - **Slack Bot**: Integrate your assistant into Slack for direct interaction through your team’s workspace.
 

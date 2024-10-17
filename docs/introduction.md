@@ -36,6 +36,6 @@ Capitalize on our unparalleled legal database and AI capabilities to integrate s
 
 ## Get Started
 
-Explore the full potential of LawMe by delving deeper into our features. This documentation will guide you through setting up your first virtual legal team and creating AI-enhanced workflows tailored to your firm’s needs.
+Explore the full potential of Lawme by delving deeper into our features. This documentation will guide you through setting up your first virtual legal team and creating AI-enhanced workflows tailored to your firm’s needs.
 
 This revision incorporates the strategic focus points and language from your investor presentation to ensure consistency across your communication platforms.

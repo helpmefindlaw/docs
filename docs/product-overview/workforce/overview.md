@@ -13,4 +13,4 @@ Empower your firm with a 24/7 virtual legal team designed to manage routine lega
 - **Pre-Trained Assistants**: Our virtual assistants come pre-trained in core legal tasks, allowing them to integrate seamlessly into your firm’s operations from day one.
 - **Customisable Roles**: You can further train your assistants using your firm's specific documents, templates, and data, ensuring they perform tasks in line with your internal processes.
 
-By utilising LawMe’s virtual workforce, you can focus on providing high-quality legal services to your clients while allowing the virtual team to manage routine, repetitive tasks efficiently.
+By utilising Lawme’s virtual workforce, you can focus on providing high-quality legal services to your clients while allowing the virtual team to manage routine, repetitive tasks efficiently.

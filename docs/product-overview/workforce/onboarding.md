@@ -2,7 +2,7 @@
 title: "Onboarding"
 ---
 
-**Ready to expand your virtual legal team?** Follow these simple steps to onboard a new virtual assistant in LawMe and customise their role to suit your firm’s needs.
+**Ready to expand your virtual legal team?** Follow these simple steps to onboard a new virtual assistant in Lawme and customise their role to suit your firm’s needs.
 
 ### Creating a New Assistant
 1. Navigate to the **Workforce Overview** page and click **"Create New Worker"**.

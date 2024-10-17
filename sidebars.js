@@ -33,7 +33,7 @@ const sidebars = {
       collapsed: true,
       items: [
         'product-overview/workflow/overview',
-        'product-overview/workflow/overview-of-interface',
+        'product-overview/workflow/interface',
         'product-overview/workflow/blocks',
         'product-overview/workflow/working-with-flows',
         'product-overview/workflow/executing-ai-chains',
@@ -43,6 +43,15 @@ const sidebars = {
         'product-overview/workflow/subflows',
         'product-overview/workflow/control-flow', 
         'product-overview/workflow/loops'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Templates',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        'product-overview/templates/overview',
       ],
     },
     {
@@ -59,20 +68,20 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Templates',
-      collapsible: true,
-      collapsed: true,
-      items: [
-        'product-overview/templates/overview',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Integrations',
       collapsible: true,
       collapsed: true,
       items: [
         'product-overview/workflow/plugins', 
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Security Measures',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        'product-overview/security/overview', 
       ],
     },
     {

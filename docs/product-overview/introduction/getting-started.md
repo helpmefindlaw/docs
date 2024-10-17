@@ -9,7 +9,7 @@ title: 'Getting Started'
 
 It’s easy to get started! You can sign up using your Google account, Microsoft account, or email:
 
-- **Sign Up**: Click "Continue with Google," "Continue with Microsoft," or fill in the sign-up form on the LawMe homepage.
+- **Sign Up**: Click "Continue with Google," "Continue with Microsoft," or fill in the sign-up form on the Lawme homepage.
   - If signing up with email, enter your First Name, Last Name, and Email Address (you can add your phone number if you’d like).
   - Click "Continue" to move on.
 - **Verify Your Email**: Check your inbox (**or junk folder**) for a verification link 
@@ -33,13 +33,13 @@ Other team members are ready to help with tasks like legal research or contract 
 
 ### Next Steps
 
-Now that you’re set up, here’s how LawMe can help improve your legal practice:
+Now that you’re set up, here’s how Lawme can help improve your legal practice:
 
 - **Free Up Your Lawyers**: Let your virtual team handle routine tasks so your lawyers can focus on more important work.
 - **Improve Efficiency**: Easily add automated workflows to your current setup, making everything run smoother without interruptions.
 - **Boost Your Research**: Use our AI-powered document stores to find legal data quickly and connect it to your workflows.
 - **Keep Your Data Secure**: We’ve got security covered with encryption and access controls to protect sensitive information.
-- **Get Precise AI Help**: Use LawMe’s extensive legal database to ensure your workflows stay compliant and efficient.
+- **Get Precise AI Help**: Use Lawme’s extensive legal database to ensure your workflows stay compliant and efficient.
 
 If you need any help along the way, our support team is ready to assist.
 
